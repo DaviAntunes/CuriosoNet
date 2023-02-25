@@ -1,3 +1,82 @@
 body{
-    background-color: #00ffff69;
+    font-family: Arial;
+    font-size: 15pt;
+    font-weight: 900;
+    background-color: #b5ffff;
+    margin: 0 auto;
+    padding: 0;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    padding: 32pt;
+    margin: 10px;
+    border: 4px solid black;
+    border-radius: 25px;
+    box-shadow: 9px 9px 9px aquamarine;
+    text-align: center;
+}
+.menu a{
+    margin-right: 32pt;
+    text-decoration: none;
+    color: black;
+}
+a{
+    color: black;
+    font-family: Arial;
+    text-decoration: none;
+}
+.card{
+    transition: all 150ms;
+    display: inline-block;
+    width: 300pt;
+    text-align: center;
+    font-family: Arial;
+    background-color: white;
+    margin: 20pt;
+    border: 9px solid rgb(0, 0, 0);
+    box-shadow: 4px 4px 4px #666666;
+    border-radius: 23px;
+}
+.card h1{
+    font-family: Arial;
+    font-size: 2em;
+}
+.posts{
+    text-align: center;
+}
+.card img{
+    width: 350px;
+}
+.post{
+    padding: 5px;
+    color: black;
+    font-family: Arial;
+    width: 500px;
+    display: inline-block;
+    text-align: center;
+    margin: 20pt;
+    background-color: white;
+    border: 9px solid black;
+    border-radius: 23px;
+}
+.post h3{
+    word-break: break-all;
+}
+.card:hover{
+    box-shadow: 18px 18px 18px #666666;
+}
+@media screen and (max-width: 732px){
+    .card{
+        width: 80%;
+        border-radius: 23px;
+    }
+    .card img{
+        width: 60%;
+    }
+    .post{
+        width: 80%;
+        border-radius: 23px;
+    }
 }
